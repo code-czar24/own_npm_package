@@ -1,0 +1,36 @@
+{
+  "name": "vb-currency-converter",
+  "version": "1.0.0",
+  "description": "A currency converter npm package powered by Freecurrencyapi",
+  "keywords": [
+    "currency",
+    "currency-converter",
+    "exchange-rate",
+    "forex",
+    "money"
+  ],
+  "homepage": "https://github.com/code-czar24/own_npm_package#readme",
+  "bugs": {
+    "url": "https://github.com/code-czar24/own_npm_package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-czar24/own_npm_package.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Vinayak Giregol",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
